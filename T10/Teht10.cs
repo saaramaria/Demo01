@@ -23,9 +23,10 @@ namespace T10
 
             for (int i = 0; i < taulukko.Length; i++)
             {
-                Console.WriteLine(taulukko[i]);
+                Console.Write(taulukko[i]);
                 if (taulukko[i] % 2 == 0)
-                    Console.WriteLine("HEP!");
+                    Console.Write(" HEP!");
+                Console.WriteLine();
             }
         }
     }
